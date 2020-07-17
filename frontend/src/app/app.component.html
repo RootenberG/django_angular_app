@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center align-items:center" >
+  <h1>{{ title }}</h1>
+<table border="5" width="50%" cellspacing="4" cellpadding="3" style="text-align: center">
+  <tr>
+    <th>Breakdown</th>
+    <th>12/30/2019</th>
+    <th>12/30/2018</th>
+    <th>12/30/2017</th>
+    <th>12/30/2016</th>
+  </tr>
+    <tr *ngFor="let item of data" > 
+      <td>{{item.name}}</td>
+      <td>{{item.year_2019}} </td>
+      <td>{{item.year_2018}} </td>
+      <td>{{item.year_2017}} </td>
+      <td>{{item.year_2016}} </td>
+    </tr>
+</table>
+</div>

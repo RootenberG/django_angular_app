@@ -1,0 +1,5 @@
+Django
+djangorestframework
+bs4
+lxml
+django-cors-headers
